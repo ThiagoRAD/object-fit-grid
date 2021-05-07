@@ -26,10 +26,14 @@ img {
 }
 
 .wide {
+  grid-column: span 2;
 }
 
 .tall {
+  grid-row: span 2;
 }
 
 .big {
+  grid-column: span 2;
+  grid-row: span 2;
 }
